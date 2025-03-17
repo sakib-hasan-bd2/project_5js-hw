@@ -3,7 +3,7 @@ let counter = document.querySelectorAll('.counter');
 let arr = Array.from(counter);
 
 
-  arr.map(item => {
+  arr.map((item) => {
     let counterNumber = item.innerHTML;
 
     function counterjs() {
